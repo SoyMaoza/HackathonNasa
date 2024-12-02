@@ -1,0 +1,5 @@
+body {
+  background-color: black; /* Asegúrate de que el fondo del body sea negro */
+  margin: 0; /* Eliminar margen por defecto */
+  height: 100vh; /* Asegurarte que ocupe toda la altura de la ventana */
+}

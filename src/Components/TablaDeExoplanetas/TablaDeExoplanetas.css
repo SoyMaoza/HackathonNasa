@@ -1,0 +1,48 @@
+.tabla-exoplanetas{
+    background: white;
+    margin-top: 30px;
+}
+
+#exoplanetas {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#exoplanetas th,
+#exoplanetas td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#exoplanetas th {
+    background-color: #f2f2f2;
+}
+
+#exoplanetas tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#exoplanetas tr:hover {
+    background-color: #f1f1f1;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
